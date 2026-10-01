@@ -7,7 +7,7 @@ import "./index.css";
 import "react-toastify/dist/ReactToastify.css";
 
 import App from "./App.jsx";
-import { ShopProvider } from "./context/Shopcontext";
+import { ShopProvider } from "./context/ShopContext";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
