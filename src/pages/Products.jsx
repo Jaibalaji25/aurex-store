@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Search, SlidersHorizontal } from "lucide-react";
 
 import ProductCard from "../components/ProductCard";
-import products from "../data/products";
+import products from "../data/Products";
 import Loading from "../components/Loading";
 
 function Products() {

@@ -3,7 +3,7 @@ import { ArrowRight, Play } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import ProductCard from "../components/ProductCard";
-import products from "../data/Products";
+import products from "../data/products";
 
 function Home() {
   const featuredProducts = products.slice(0, 4);

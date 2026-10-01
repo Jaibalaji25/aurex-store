@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Minus, Plus, ShoppingBag, Trash2 } from "lucide-react";
 import { motion } from "framer-motion";
 
-import { useShop } from "../context/Shopcontext";
+import { useShop } from "../context/ShopContext";
 
 function Cart() {
   const { cart, cartTotal, updateQuantity, removeFromCart } = useShop();

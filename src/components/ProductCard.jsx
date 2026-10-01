@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Heart, ShoppingBag, Star } from "lucide-react";
 
-import { useShop } from "../context/Shopcontext";
+import { useShop } from "../context/ShopContext";
 
 function ProductCard({ product }) {
   const { addToCart, toggleWishlist, isInWishlist } = useShop();

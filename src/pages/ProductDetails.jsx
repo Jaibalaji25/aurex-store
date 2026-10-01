@@ -3,8 +3,8 @@ import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, Heart, Minus, Plus, ShoppingBag, Star } from "lucide-react";
 import { motion } from "framer-motion";
 
-import { useShop } from "../context/Shopcontext";
-import products from "../data/Products";
+import { useShop } from "../context/ShopContext";
+import products from "../data/products";
 
 function ProductDetails() {
   const { id } = useParams();
