@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, ShoppingBag, Heart, Menu, X, Sun, Moon } from "lucide-react";
-import { useShop } from "../context/ShopContext";
+import { useShop } from "../context/Shopcontext";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
