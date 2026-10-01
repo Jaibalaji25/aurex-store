@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #050505;
+  color: white;
+}
+
+/* Light Theme */
+
+html.light body {
+  background: #f5f5f5;
+  color: #111111;
+}
+
+/* Main dark backgrounds */
+
+html.light .bg-black {
+  background-color: #f5f5f5 !important;
+}
+
+html.light .bg-white\/80 {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* White text becomes dark */
+
+html.light .text-white {
+  color: #111111 !important;
+}
+
+/* Gray text */
+
+html.light .text-gray-200 {
+  color: #333333 !important;
+}
+
+html.light .text-gray-300 {
+  color: #444444 !important;
+}
+
+html.light .text-gray-400 {
+  color: #555555 !important;
+}
+
+html.light .text-gray-500 {
+  color: #666666 !important;
+}
+
+/* Cards */
+
+html.light [class*="bg-white/\\[0.03\\]"] {
+  background-color: rgba(0, 0, 0, 0.03) !important;
+}
+
+html.light [class*="bg-white/\\[0.04\\]"] {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Borders */
+
+html.light [class*="border-white/10"] {
+  border-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Inputs */
+
+html.light input,
+html.light textarea {
+  background-color: white !important;
+  color: #111111 !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #888888 !important;
+}
